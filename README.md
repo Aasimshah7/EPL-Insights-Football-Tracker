@@ -24,7 +24,7 @@ The system is built using:
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/epl-insights.git
+git clone https://gitlab.com/aasimshah.2000/football_tracker.git
 cd epl-insights
 ```
 
