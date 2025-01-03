@@ -4,7 +4,7 @@
 2. Gokul Sajeev (Gokulsajeev15)
 
 ### Report Link - https://gitlab.com/aasimshah.2000/football_tracker
-### Video Path - https://drive.google.com/file/d/1T7gPDfbwrFlJpTyRw4usVu7kjwBHrIcv/view?usp=drive_link
+### Video Link - https://drive.google.com/file/d/1T7gPDfbwrFlJpTyRw4usVu7kjwBHrIcv/view?usp=drive_link
 
 ## Overview
 
