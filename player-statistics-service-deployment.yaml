@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: C:\Users\Aasim\AppData\Local\Microsoft\WinGet\Links\kompose.exe convert
+    kompose.version: 1.31.2 (a92241f79)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: player-statistics-service
+  name: player-statistics-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: player-statistics-service
+  strategy: {}
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: C:\Users\Aasim\AppData\Local\Microsoft\WinGet\Links\kompose.exe convert
+        kompose.version: 1.31.2 (a92241f79)
+      creationTimestamp: null
+      labels:
+        io.kompose.network/epl-insights-distributed-system-default: "true"
+        io.kompose.service: player-statistics-service
+    spec:
+      containers:
+        - env:
+            - name: SPRING_DATA_MONGODB_DATABASE
+              value: epldb
+            - name: SPRING_DATA_MONGODB_HOST
+              value: mongodb
+            - name: SPRING_DATA_MONGODB_PORT
+              value: "27017"
+          image: aasim7/epl-insights-distributed-system-player-statistics-service:latest
+          name: player-statistics-service
+          ports:
+            - containerPort: 8080
+              hostPort: 8080
+              protocol: TCP
+          resources: {}
+      restartPolicy: Always
+status: {}
