@@ -3,6 +3,9 @@
 1. Aasim Shah (aasim.shah@2000)
 2. Gokul Sajeev (Gokulsajeev15)
 
+### Report Link - https://gitlab.com/aasimshah.2000/football_tracker
+### Video Path - https://drive.google.com/file/d/1T7gPDfbwrFlJpTyRw4usVu7kjwBHrIcv/view?usp=drive_link
+
 ## Overview
 
 EPL Insights is a microservices-based system that provides real-time analytics and statistics for English Premier League football players and teams. The system consists of two main services:
