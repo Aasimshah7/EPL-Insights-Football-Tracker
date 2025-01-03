@@ -1,4 +1,10 @@
+## Team Name - GoalSync
+### Team Members
+1. Aasim Shah (aasim.shah@2000)
+2. Gokul Sajeev (Gokulsajeev15)
+
 ## Overview
+
 EPL Insights is a microservices-based system that provides real-time analytics and statistics for English Premier League football players and teams. The system consists of two main services:
 - Player Statistics Service: Manages individual player data and statistics
 - Team Statistics Service: Processes team-level analytics based on player data
