@@ -26,8 +26,8 @@ The system is built using:
 
 1. Clone the repository
 ```bash
-git clone https://gitlab.com/aasimshah.2000/football_tracker.git
-cd epl-insights
+git clone https://github.com/Aasimshah7/EPL-Insights-Football-Tracker.git
+cd EPL-Insights-Football-Tracker
 ```
 
 2. Start Kubernetes
