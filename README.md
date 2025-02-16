@@ -1,5 +1,6 @@
-## EPL Insights: Football Tracker
+# EPL Insights: Football Tracker
 
+## Overview
 EPL Insights is a microservices-based system that provides real-time analytics and statistics for English Premier League football players and teams. The system consists of two main services:
 - Player Statistics Service: Manages individual player data and statistics
 - Team Statistics Service: Processes team-level analytics based on player data
@@ -88,3 +89,5 @@ Generate Team Statistics
 ```bash
 GET /api/team-statistics/generate/{teamName}
 ```
+## Author
+Developed by **Aasim Shah**.
